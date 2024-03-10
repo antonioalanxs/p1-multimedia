@@ -1,12 +1,19 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap");
+
+html {
+	font-family: "Poppins", sans-serif;
+}
+
 #gamecontainer {
-	width:640px;
+	width:675px;
 	height:480px;
 	background: url(images/splashscreen.png);
 	border: 1px solid black;
 }
 
 .gamelayer {
-	width:640px;
+	width:675px;
 	height:480px;
 	position:absolute;
 	display:none;
@@ -57,7 +64,7 @@
 /* Pantalla de puntuación */
 #scorescreen  {
     height:60px;
-    font: 32px Comic Sans MS;
+    font: 32px;
     text-shadow: 0 0 2px #000;
 	color:white;
 }
@@ -91,7 +98,7 @@ endingscreen {
 }
 
 #endingscreen p  {    
-    font: 20px Comic Sans MS;
+    font: 20px;
     text-shadow: 0 0 2px #000;
 	color:white;
 }
@@ -103,7 +110,7 @@ endingscreen {
 }
 
 #endingscreen #endingmessage  {    
-    font: 32px Comic Sans MS;
+    font: 32px;
     text-shadow: 0 0 2px #000;
 	color:white;
 }

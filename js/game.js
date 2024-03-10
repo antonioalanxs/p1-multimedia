@@ -396,7 +396,7 @@ var levels = {
 	// Datos de nivel
 	data:[
 	 {   // Primer nivel 
-		foreground:'desert-foreground',
+		foreground:'beach-foreground',
 		background:'clouds-background',
 		entities:[
 			{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
@@ -404,18 +404,18 @@ var levels = {
 
 			{type:"block", name:"wood", x:520,y:380,angle:90,width:100,height:25},
 			{type:"block", name:"glass", x:520,y:280,angle:90,width:100,height:25},								
-			{type:"villain", name:"burger",x:520,y:205,calories:590},
+			{type:"villain", name:"enemy1",x:520,y:205,calories:590},
 
 			{type:"block", name:"wood", x:620,y:380,angle:90,width:100,height:25},
 			{type:"block", name:"glass", x:620,y:280,angle:90,width:100,height:25},								
-			{type:"villain", name:"fries", x:620,y:205,calories:420},				
+			{type:"villain", name:"enemy2", x:620,y:205,calories:420},				
 
-			{type:"hero", name:"orange",x:80,y:405},
-			{type:"hero", name:"apple",x:140,y:405},
+			{type:"hero", name:"hero2",x:80,y:405},
+			{type:"hero", name:"hero1",x:140,y:405},
 		]
 	 },
 		{   // Segundo nivel
-			foreground:'desert-foreground',
+			foreground:'beach-foreground',
 			background:'clouds-background',
 			entities:[
 				{type:"ground", name:"dirt", x:500,y:440,width:1000,height:20,isStatic:true},
@@ -431,13 +431,13 @@ var levels = {
 				{type:"block", name:"glass", x:770,y:255,angle:90,width:100,height:25},
 				{type:"block", name:"wood", x:720,y:192.5,width:100,height:25},	
 
-				{type:"villain", name:"burger",x:715,y:155,calories:590},
-				{type:"villain", name:"fries",x:670,y:405,calories:420},
-				{type:"villain", name:"sodacan",x:765,y:400,calories:150},
+				{type:"villain", name:"enemy1",x:715,y:155,calories:590},
+				{type:"villain", name:"enemy2",x:670,y:405,calories:420},
+				{type:"villain", name:"enemy3",x:765,y:400,calories:150},
 
-				{type:"hero", name:"strawberry",x:30,y:415},
-				{type:"hero", name:"orange",x:80,y:405},
-				{type:"hero", name:"apple",x:140,y:405},
+				{type:"hero", name:"hero3",x:30,y:415},
+				{type:"hero", name:"hero2",x:80,y:405},
+				{type:"hero", name:"hero1",x:140,y:405},
 			]
 		}
 	],
@@ -511,7 +511,7 @@ var entities = {
 			friction:1.5,
 			restitution:0.2,	
 		},
-		"burger":{
+		"enemy1":{
 			shape:"circle",
 			fullHealth:40,
 			radius:25,
@@ -519,41 +519,47 @@ var entities = {
 			friction:0.5,
 			restitution:0.4,	
 		},
-		"sodacan":{
-			shape:"rectangle",
+		"enemy3":{
+			shape:"circle",
 			fullHealth:80,
-			width:40,
-			height:60,
+			radius:25,
 			density:1,
 			friction:0.5,
 			restitution:0.7,	
 		},
-		"fries":{
-			shape:"rectangle",
+		"enemy4": {
+			shape: "circle",
+			fullHealth: 80,
+			radius: 25,
+			density: 1,
+			friction: 0.5,
+			restitution: 0.7,
+		},
+		"enemy2":{
+			shape: "circle",
 			fullHealth:50,
-			width:40,
-			height:50,
+			radius: 25,
 			density:1,
 			friction:0.5,
 			restitution:0.6,	
 		},
-		"apple":{
+		"hero1":{
 			shape:"circle",
 			radius:25,
 			density:1.5,
 			friction:0.5,
 			restitution:0.4,	
 		},
-		"orange":{
+		"hero2":{
 			shape:"circle",
 			radius:25,
 			density:1.5,
 			friction:0.5,
 			restitution:0.4,	
 		},
-		"strawberry":{
+		"hero3":{
 			shape:"circle",
-			radius:15,
+			radius:25,
 			density:2.0,
 			friction:0.5,
 			restitution:0.4,	
@@ -838,4 +844,3 @@ var mouse = {
 		mouse.dragging = false;
 	}
 }
-
