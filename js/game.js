@@ -93,6 +93,7 @@ var game = {
 	showLevelScreen:function(){
 		$('.gamelayer').hide();
 		$('#levelselectscreen').show('slow');
+		game.backgroundMusic.pause();
 	},
 	restartLevel:function(){
 		window.cancelAnimationFrame(game.animationFrame);		
