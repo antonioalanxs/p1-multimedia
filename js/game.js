@@ -504,35 +504,35 @@ var levels = {
 			entities: [
 				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
 				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
-
-				{ type: "block", name: "wood", x: 930, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 930, y: 280, angle: 90, width: 100, height: 25 },
-				{ type: "villain", name: "enemy1", x: 930, y: 205, calories: 590 },
-
-				{ type: "block", name: "wood", x: 650, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 650, y: 280, angle: 90, width: 100, height: 25 },
-				{ type: "villain", name: "enemy2", x: 650, y: 205, calories: 420 },
-
-				{ type: "block", name: "wood", x: 890, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 790, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 690, y: 380, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 740, y: 317.5, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 840, y: 317.5, width: 100, height: 25 },
-
-				{ type: "block", name: "glass", x: 740, y: 255, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "glass", x: 840, y: 255, angle: 90, width: 100, height: 25 },
-				{ type: "block", name: "wood", x: 790, y: 192.5, width: 100, height: 25 },
-
-				{ type: "villain", name: "enemy1", x: 785, y: 155, calories: 590 },
-				{ type: "villain", name: "enemy2", x: 740, y: 405, calories: 420 },
-				{ type: "villain", name: "enemy3", x: 835, y: 400, calories: 150 },
-
-				{ type: "hero", name: "hero4", x: 30, y: 415 },
-				{ type: "hero", name: "hero3", x: 80, y: 405 },
-				{ type: "hero", name: "hero2", x: 140, y: 405 },
-				{ type: "hero", name: "hero1", x: 200, y: 405 },
+		
+				{ type: "block", name: "wood", x: 880-100, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 880-100, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 880-100, y: 205, calories: 590 },
+		
+				{ type: "block", name: "wood", x: 600-100, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 600-100, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy2", x: 600-100, y: 205, calories: 420 },
+		
+				{ type: "block", name: "wood", x: 840-100, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 740-100, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 640-100, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 690-100, y: 317.5, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 790-100, y: 317.5, width: 100, height: 25 },
+		
+				{ type: "block", name: "glass", x: 690-100, y: 255, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 790-100, y: 255, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 740-100, y: 192.5, width: 100, height: 25 },
+		
+				{ type: "villain", name: "enemy1", x: 735-100, y: 155, calories: 590 },
+				{ type: "villain", name: "enemy2", x: 690-100, y: 405, calories: 420 },
+				{ type: "villain", name: "enemy3", x: 785-100, y: 400, calories: 150 },
+		
+				{ type: "hero", name: "hero1", x: 20, y: 415 },
+				{ type: "hero", name: "hero2", x: 80, y: 405 },
+				{ type: "hero", name: "hero3", x: 140, y: 405 },
+				{ type: "hero", name: "hero4", x: 200, y: 405 },
 			]
-		}
+		}		
 	],
 
 	// Inicializar pantalla de selección de nivel
