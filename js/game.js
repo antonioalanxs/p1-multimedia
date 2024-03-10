@@ -439,6 +439,98 @@ var levels = {
 				{type:"hero", name:"hero2",x:80,y:405},
 				{type:"hero", name:"hero1",x:140,y:405},
 			]
+		},
+		{   // Tercer nivel
+			foreground: 'beach-foreground',
+			background: 'clouds-background',
+			entities: [
+				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
+				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
+
+				{ type: "block", name: "wood", x: 688, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 688, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 688, y: 205, calories: 590 },
+
+				{ type: "block", name: "wood", x: 590, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 490, y: 380, angle: 90, width: 100, height: 25 },
+
+				{ type: "block", name: "glass", x: 540, y: 317.5, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 540, y: 255, angle: 90, width: 100, height: 25 },
+
+				{ type: "block", name: "wood", x: 885, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 785, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 835, y: 317.5, width: 100, height: 25 },
+
+				{ type: "block", name: "glass", x: 835, y: 255, angle: 90, width: 100, height: 25 },
+
+				{ type: "villain", name: "enemy2", x: 540, y: 405, calories: 420 },
+				{ type: "villain", name: "enemy3", x: 835, y: 400, calories: 150 },
+
+				{ type: "hero", name: "hero4", x: 30, y: 415 },
+				{ type: "hero", name: "hero3", x: 80, y: 405 },
+				{ type: "hero", name: "hero2", x: 140, y: 405 },
+				{ type: "hero", name: "hero1", x: 200, y: 405 },
+
+			]
+		},
+		{   // Cuarto nivel
+			foreground: 'beach-foreground',
+			background: 'clouds-background',
+			entities: [
+				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
+				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
+		
+				{ type: "block", name: "wood", x: 830, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 730, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 630, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 530, y: 380, angle: 90, width: 100, height: 25 },
+
+				{ type: "block", name: "wood", x: 680, y: 317.5, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 780, y: 317.5, width: 100, height: 25 },
+		
+				{ type: "villain", name: "enemy1", x: 680, y: 255, calories: 590 },
+				{ type: "villain", name: "enemy2", x: 780, y: 255, calories: 420 },
+		
+				{ type: "hero", name: "hero1", x: 20, y: 415 },
+				{ type: "hero", name: "hero2", x: 80, y: 405 },
+				{ type: "hero", name: "hero3", x: 140, y: 405 },
+				{ type: "hero", name: "hero4", x: 200, y: 405 },
+			]
+		},
+		{   // Quinto nivel
+			foreground: 'beach-foreground',
+			background: 'clouds-background',
+			entities: [
+				{ type: "ground", name: "dirt", x: 500, y: 440, width: 1000, height: 20, isStatic: true },
+				{ type: "ground", name: "wood", x: 185, y: 390, width: 30, height: 80, isStatic: true },
+
+				{ type: "block", name: "wood", x: 930, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 930, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy1", x: 930, y: 205, calories: 590 },
+
+				{ type: "block", name: "wood", x: 650, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 650, y: 280, angle: 90, width: 100, height: 25 },
+				{ type: "villain", name: "enemy2", x: 650, y: 205, calories: 420 },
+
+				{ type: "block", name: "wood", x: 890, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 790, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 690, y: 380, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 740, y: 317.5, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 840, y: 317.5, width: 100, height: 25 },
+
+				{ type: "block", name: "glass", x: 740, y: 255, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "glass", x: 840, y: 255, angle: 90, width: 100, height: 25 },
+				{ type: "block", name: "wood", x: 790, y: 192.5, width: 100, height: 25 },
+
+				{ type: "villain", name: "enemy1", x: 785, y: 155, calories: 590 },
+				{ type: "villain", name: "enemy2", x: 740, y: 405, calories: 420 },
+				{ type: "villain", name: "enemy3", x: 835, y: 400, calories: 150 },
+
+				{ type: "hero", name: "hero4", x: 30, y: 415 },
+				{ type: "hero", name: "hero3", x: 80, y: 405 },
+				{ type: "hero", name: "hero2", x: 140, y: 405 },
+				{ type: "hero", name: "hero1", x: 200, y: 405 },
+			]
 		}
 	],
 
@@ -563,6 +655,13 @@ var entities = {
 			density:2.0,
 			friction:0.5,
 			restitution:0.4,	
+		},
+		"hero4": {
+			shape: "circle",
+			radius: 25,
+			density: 2.0,
+			friction: 0.5,
+			restitution: 0.4,
 		},
 	},
 	// Tomar la entidad, crear un cuerpo box2d y añadirlo al mundo
